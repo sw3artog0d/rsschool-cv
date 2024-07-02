@@ -1,7 +1,5 @@
 # Vorontsov Vladimir
 
-===
-
 ## Contact Information:
 
 Telegram: [@akademlk](https://t.me/akademlk)
