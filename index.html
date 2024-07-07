@@ -3,10 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Vladimir Vorontsov - CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Привет!</h1>
-    <p>Здесь будет мой CV</p>
+    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#languages">Languages</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="grid">
+                <section class="profile_name">    
+                    <h1>Vladimir Vorontsov</h1>
+                </section>
+                <section class="profile_image">
+                    <img src="./images/cat_without_lazers.jpg" alt="profile-image">
+                </section>
+            
+            <section class="contact">
+                <h2>Contact Information:</h2>
+                <ul>
+                    <li><a href="https://t.me/akademlk">Telegram: @akademlk</a></li>
+                    <li><a href="mailto:stormshadoww19@gmail.com">E-mail: stormshadoww19@gmail.com</a></li>
+                    <li><a href="https://x.com/sw3artog0d">Twitter: @sw3artog0d</a></li>
+                </ul>
+            </section>
+            <section class="about" id="about">
+                <h2>About Me</h2>
+                <p>My goal is to improve my knowledge in Frontend/JavaScript, learn Python Web3, and create my own project.</p>
+            </section>
+            <section class="skills" id="skills">
+                <h2>My Skills</h2>
+                <ul>
+                    <li>Python</li>
+                    <li>Adobe Photoshop (logos, posters, banners, etc.)</li>
+                    <li>HTML & CSS</li>
+                    <li>Figma</li>
+                    <li>Git</li>
+                </ul>
+            </section>
+            <section class="code">
+                <h2>Example of Code</h2>
+                <pre><code>
+greetings = "Hello, World!"
+
+for ch in greetings:
+  print(ch, end="")
+                </code></pre>
+            </section>
+            <section class="experience" id="experience">
+                <h2>Work Experience</h2>
+                <ul>
+                    <li>Python: Learned a video course on the basics and know how to work with files, parse sites, do telegram bots.</li>
+                    <li>Adobe Photoshop: Made logos, posters, banners, etc. for friends and personal projects.</li>
+                    <li>Figma: Worked as part of a team to create a site layout and game interface.</li>
+                    <li>Web Development: Self-taught, built about four multi-page websites with adaptive layout.</li>
+                </ul>
+            </section>
+            <section class="education" id="education">
+                <h2>Education and Courses</h2>
+                <p>Incomplete higher education in the field of applied computer science and gambling.</p>
+            </section>
+            <section class="languages" id="languages">
+                <h2>Languages</h2>
+                <p>English: B2</p>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <a href="https://github.com/sw3artog0d">GitHub: sw3artog0d</a>
+        <a href="https://rs.school/courses/javascript-ru"><img src="./images/logos/rs-school-logo.svg" alt="rs-school-logo" width="100"></a>
+    </footer>
 </body>
 </html>

@@ -1,9 +1,123 @@
+body {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fbf7f0;
+}
+
+nav {
+  padding: 10px 0;
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+
+header {
+  margin: 6em 6em;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
 h1 {
-    color: blue;
-    background-color: yellow;
-    border: 1px solid black;
-  }
-  
-  p {
-    color: red;
-  }
+  margin: 0;
+}
+
+main {}
+
+
+
+h2 {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: #f0ae12;
+}
+
+.profile_name  {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.profile_image {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2em;
+  row-gap: 2em;
+}
+
+section {
+  margin: 2em 2em;
+}
+
+.contact ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+
+.code pre {
+  background-color: #eee;
+  max-width: 400px;
+  padding: 10px;
+}
+
+.experience li {
+  margin-bottom: 10px;
+}
+
+.experience li:first-child {
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f0ae12;
+  padding: 32px 0 32px 0;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: white;
+  text-decoration-color: white;
+}
